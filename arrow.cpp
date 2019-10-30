@@ -2,7 +2,8 @@
  * he arrow operator, -> (that's a minus sign followed immediately by a greater than),
  * dereferences a pointer to select a field. It is common to dynamically allocate structs,
  * so this operator is commonly used.
- */
+ * last modified - 191101
+ * /
 
 #include <iostream>
 using namespace std;
