@@ -3,9 +3,7 @@
         {
             "name": "linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/usr/local/include/opencv4/**",
-                "/usr/local/include/opencv4"
+                "${workspaceFolder}/**"
             ],
             "compilerPath": "${env:gcc}",
             "defines": [
