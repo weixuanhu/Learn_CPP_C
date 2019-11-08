@@ -7,7 +7,7 @@
                 "${workspaceFolder}/**"
             ],
             
-            "compilerPath": "C:\\Localdata\\msys2\\mingw64\\bin\\g++.exe",            
+            "compilerPath": "${env:gcc}",            
 
             "defines": [
                 "_DEBUG",
