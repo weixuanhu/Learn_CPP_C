@@ -1,20 +1,16 @@
 {
     "configurations": [
         {
-            "name": "Win32",
-            
+            "name": "linux",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            
-            "compilerPath": "C:\\Localdata\\msys2\\mingw64\\bin\\g++.exe",            
-
+            "compilerPath": "${env:gcc}",
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            
             "intelliSenseMode": "gcc-x64"
         }
     ],

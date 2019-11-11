@@ -7,11 +7,11 @@
         {
             "label": "Build Current Open c/c++",
             "type": "shell",
-            "command": "${env:g++}",
+            "command": "${env:gcc}",
             "args": [
                 "-g",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}${env:splash}${fileBasenameNoExtension}.exe",
                 "${file}",
                 "-std=c++17"
             ],
