@@ -35,5 +35,8 @@ int main(int argc, char* argv[]){
     vector<char> vect_5(vect_dummy.begin(), vect_dummy.begin()+2);
     showVector(vect_5);
 
+    // vector of a vector
+    vector<vector<int>> vect_2D(10, vector<int>());
+
     return 0;
 }

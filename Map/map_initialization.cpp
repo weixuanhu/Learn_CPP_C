@@ -3,6 +3,7 @@
 #include <map>
 using namespace std;
 
+// https://www.geeksforgeeks.org/map-associative-containers-the-c-standard-template-library-stl/
 int main(int argc, char* argv[]){
     map<int, int> quizScore;
     quizScore.insert(pair<int, int>(1, 40));
@@ -15,5 +16,8 @@ int main(int argc, char* argv[]){
 
     // printing Scores of quiz
     map<int, int>::iterator itr;
-    
+    cout << "\tKEY\tELEMENT\n";
+    for (itr=quizScore.begin(); itr!=quizScore.end(); itr++){
+        cout << "\t" << itr->first << "\t" << itr->second << "\n";
+    }
 }
