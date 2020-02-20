@@ -23,10 +23,6 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-<<<<<<< HEAD
-        "map": "cpp",
-        "vector": "cpp"
-=======
         "array": "cpp",
         "atomic": "cpp",
         "hash_map": "cpp",
@@ -67,6 +63,5 @@
         "cinttypes": "cpp",
         "valarray": "cpp",
         "variant": "cpp"
->>>>>>> acca99d586660edb625417fc27cc31c3ef75cd76
     }
 }
