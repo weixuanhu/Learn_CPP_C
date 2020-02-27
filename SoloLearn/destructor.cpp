@@ -1,6 +1,7 @@
 #include <iostream>
 #include <typeinfo>
 using namespace std;
+/* test */
 
 class A {
     public:
