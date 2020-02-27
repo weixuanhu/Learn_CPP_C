@@ -8,7 +8,7 @@ class A {
         ~A() {cout << i + 5;}
     private:
         int i;
-};
+};//
 
 int main(int argc, char **argv){
     cout << endl;
