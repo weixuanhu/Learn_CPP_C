@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(int argc, char* argv[]){
-    unsigned u = 10, u2 = 42;
+    unsigned u = 10, u2 = 42;      
     std::cout << "Length of int is: " << sizeof(int) << std::endl;
 
     std::cout << u2 - u << std::endl;       // guess: small
