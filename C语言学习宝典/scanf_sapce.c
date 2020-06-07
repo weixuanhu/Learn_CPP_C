@@ -5,8 +5,9 @@ int main(int argc, char* argv[]){
     int i;
     for (i=0;i<10;i++) scanf("%c",&a[i]);
     a[i]='\0';
-    fgets(b);
+    gets(b);
     printf("%s%s\n",a,b);
+    printf("%s\n",b+9);
     return 0;
 }
 
