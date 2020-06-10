@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**"
             ],
-            "compilerPath": "${env:gcc}",
+            "compilerPath": "${env:mygpp}",
             "defines": [
                 "_DEBUG",
                 "UNICODE",

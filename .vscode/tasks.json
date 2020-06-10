@@ -7,13 +7,14 @@
         {
             "label": "Build Current Open c/c++",
             "type": "shell",
-            "command": "${env:gcc}",
+            "command": "${env:mygpp}",
             "args": [
                 "-g",
                 "-o",
                 "${fileDirname}${env:splash}${fileBasenameNoExtension}.exe",
                 "${file}",
-                "-std=c++17"
+                "-std=c++17",
+                "-Wall",
             ],
             "group": {
                 "kind": "build",

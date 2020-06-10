@@ -6,6 +6,7 @@
     "configurations": [
         {
             "name": "(gdb) Launch",
+            "preLaunchTask": "Build Current Open c/c++",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}${env:splash}${fileBasenameNoExtension}.exe",
@@ -15,7 +16,8 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "${env:gdb}",
+            "miDebuggerPath": "${env:mygdb}",
+            
             
             "setupCommands": [
                 {
