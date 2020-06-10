@@ -13,4 +13,5 @@ int main(){
     cout << (i=0?1:0?3:4) << endl;
     cout << (i=1?1:2?3:4) << endl;
     cout << endl;
+    return 0;
 }
